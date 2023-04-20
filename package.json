@@ -4,6 +4,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "test": "cypress run",
     "cypress": "cypress open"
   },
   "dependencies": {
