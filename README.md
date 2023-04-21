@@ -10,10 +10,12 @@ See [this issue](https://github.com/stripe/stripe-node/issues/1767) for more det
 $ npm install
 ```
 
-2. Run the application
+2. Create a copy of the `.env.example` file, named `.env`, with valid keys and a valid product price ID
+
+3. Run the application
 
 ```shell
-$ STRIPE_WEBHOOK_SECRET=$(stripe listen --print-secret) npm run dev
+$ npm run dev
 ```
 
 4. In a separate terminal, run `npm run cypress`
@@ -22,4 +24,6 @@ $ STRIPE_WEBHOOK_SECRET=$(stripe listen --print-secret) npm run dev
 
 6. Select a browser and click "Start E2E Testing in ..."
 
-7. Select the `app.cy.js` test.
+7. Select the `pay.cy.js` test.
+
+8. Observe that no elements can be selected by Cypress.
