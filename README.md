@@ -1,6 +1,6 @@
 # E2E Testing in Cypress Bug Reproduction
 
-See [this issue](https://github.com/stripe/stripe-node/issues/1767) for more details.
+See [this issue](https://github.com/stripe/react-stripe-js/issues/396) for more details.
 
 ## To test the error demonstrated here
 
